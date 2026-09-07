@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.tvz.projekt.controller.StatsController">
+
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <top>
+        <Label text="Statistika" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+    </top>
+
+    <center>
+        <GridPane hgap="10" vgap="10">
+            <columnConstraints>
+                <ColumnConstraints minWidth="260"/>
+                <ColumnConstraints minWidth="260"/>
+            </columnConstraints>
+
+            <Label text="Broj volontera:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <Label fx:id="lblVolunteers" text="-" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+            <Label text="Broj događaja:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <Label fx:id="lblEvents" text="-" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+            <Label text="Najmlađi volonter:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <Label fx:id="lblYoungest" text="-" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+            <Label text="Najstariji volonter:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <Label fx:id="lblOldest" text="-" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+            <Label text="Prosječna dob:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+            <Label fx:id="lblAvgAge" text="-" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+        </GridPane>
+    </center>
+
+</BorderPane>

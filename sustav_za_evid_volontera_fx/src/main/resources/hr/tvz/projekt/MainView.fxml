@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.tvz.projekt.controller.MainController">
+
+    <top>
+        <MenuBar>
+            <Menu text="Pregled">
+                <MenuItem text="Volonteri" onAction="#showVolunteers"/>
+                <MenuItem text="Događaji" onAction="#showEvents"/>
+                <MenuItem text="Organizatori" onAction="#showOrganizers"/>
+            </Menu>
+            <Menu text="Statistika">
+                <MenuItem text="Statistika" onAction="#showStats"/>
+            </Menu>
+            <Menu text="Dodaj">
+                <MenuItem text="Event" onAction="#addEvent"/>
+                <MenuItem text="Volonter" onAction="#addVolunteer"/>
+                <MenuItem text="Organizator" onAction="#addOrganizer"/>
+            </Menu>
+            <Menu text="Alati">
+                <MenuItem text="Backup VOLUNTEERS" onAction="#backupVolunteers"/>
+            </Menu>
+
+        </MenuBar>
+    </top>
+
+    <center>
+        <StackPane fx:id="contentPane"/>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Posljednji uneseni volonter:" />
+            <Label fx:id="lastVolunteerLabel" text="(učitavam...)" />
+        </HBox>
+    </bottom>
+
+</BorderPane>

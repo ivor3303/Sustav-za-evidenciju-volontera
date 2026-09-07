@@ -1,0 +1,36 @@
+2025-11-03 18:57:12,256 INFO [main] h.t.p.a.Main [Main.java:53] Pokretanje aplikacije za evidenciju volontera.
+2025-11-03 18:57:24,325 DEBUG [main] h.t.p.a.Main [Main.java:110] Započet unos volontera. Ukupan broj: 5
+2025-11-03 18:57:31,342 DEBUG [main] h.t.p.a.Main [Main.java:130] Odabran skillChoice: 3
+2025-11-03 18:57:41,346 WARN [main] h.t.p.a.Main [Main.java:150] Neispravna email adresa: Email adresa nije valjana!
+2025-11-03 18:58:53,543 INFO [main] h.t.p.a.Main [Main.java:53] Pokretanje aplikacije za evidenciju volontera.
+2025-11-03 18:59:00,712 DEBUG [main] h.t.p.a.Main [Main.java:110] Započet unos volontera. Ukupan broj: 5
+2025-11-03 18:59:06,024 DEBUG [main] h.t.p.a.Main [Main.java:130] Odabran skillChoice: 4
+2025-11-03 18:59:12,989 WARN [main] h.t.p.a.Main [Main.java:150] Neispravna email adresa: Email adresa nije valjana!
+2025-11-03 18:59:19,146 WARN [main] h.t.p.a.Main [Main.java:150] Neispravna email adresa: Email adresa nije valjana!
+2025-11-03 18:59:27,338 WARN [main] h.t.p.a.Main [Main.java:150] Neispravna email adresa: Email adresa nije valjana!
+2025-11-03 18:59:34,167 WARN [main] h.t.p.a.Main [Main.java:175] Neispravna dob volontera: null
+2025-11-03 18:59:40,074 WARN [main] h.t.p.a.Main [Main.java:175] Neispravna dob volontera: null
+2026-01-07 17:48:10,701 INFO [main] h.t.p.a.Main [Main.java:77] Pokretanje aplikacije za evidenciju volontera.
+2026-01-07 18:00:20,161 INFO [main] h.t.p.a.Main [Main.java:80] Pokretanje aplikacije za evidenciju volontera.
+2026-01-07 18:31:10,865 INFO [main] h.t.p.a.Main [Main.java:80] Pokretanje aplikacije za evidenciju volontera.
+2026-01-07 18:32:29,113 DEBUG [main] h.t.p.a.Main [Main.java:208] Započet unos volontera. Ukupan broj: 5
+2026-01-07 18:32:56,734 DEBUG [main] h.t.p.a.Main [Main.java:228] Odabran skillChoice: 1
+2026-01-07 18:33:05,136 INFO [main] h.t.p.a.Main [Main.java:287] Uspješno kreiran volonter: marko markic
+2026-01-07 18:33:13,852 DEBUG [main] h.t.p.a.Main [Main.java:228] Odabran skillChoice: 2
+2026-01-07 18:33:25,680 INFO [main] h.t.p.a.Main [Main.java:287] Uspješno kreiran volonter: Ivan Ivica
+2026-01-07 18:33:36,020 DEBUG [main] h.t.p.a.Main [Main.java:228] Odabran skillChoice: 3
+2026-01-07 18:33:42,255 INFO [main] h.t.p.a.Main [Main.java:287] Uspješno kreiran volonter: Pero Peric
+2026-01-07 18:33:53,276 DEBUG [main] h.t.p.a.Main [Main.java:228] Odabran skillChoice: 4
+2026-01-07 18:33:59,882 INFO [main] h.t.p.a.Main [Main.java:287] Uspješno kreiran volonter: Sandra Sandric
+2026-01-07 18:34:09,084 DEBUG [main] h.t.p.a.Main [Main.java:228] Odabran skillChoice: 5
+2026-01-07 18:34:14,560 INFO [main] h.t.p.a.Main [Main.java:287] Uspješno kreiran volonter: Luka Lukic
+2026-01-07 18:34:42,778 DEBUG [main] h.t.p.a.Main [Main.java:364] Dodan događaj: Exit Music Festival (Zagreb, ulica prva ) - KULTURNI
+2026-01-07 18:34:56,827 DEBUG [main] h.t.p.a.Main [Main.java:364] Dodan događaj: Rukometno prvenstvo (Zagreb, Zagreb Arena ) - SPORTSKI
+2026-01-07 18:35:17,874 DEBUG [main] h.t.p.a.Main [Main.java:364] Dodan događaj: Sjecanje na Vukovar (Vukovar, Vukovarska ulica 3) - KULTURNI
+2026-01-07 18:35:29,174 DEBUG [main] h.t.p.a.Main [Main.java:364] Dodan događaj: Drito (Zagreb, Arena Zagreb) - KULTURNI
+2026-01-07 18:35:51,069 DEBUG [main] h.t.p.a.Main [Main.java:364] Dodan događaj: Utakmica DInamo Zagrev (Zagreb, Zagrebacka cesa 12) - SPORTSKI
+2026-01-07 18:37:27,072 INFO [main] h.t.p.a.Main [Main.java:925] Uspješno kreiran organizator: Ivor Zupanic
+2026-01-07 18:37:43,446 INFO [main] h.t.p.a.Main [Main.java:925] Uspješno kreiran organizator: Milica Prase
+2026-01-07 18:37:54,073 INFO [main] h.t.p.a.Main [Main.java:925] Uspješno kreiran organizator: Anja Bla
+2026-01-07 18:38:17,991 INFO [main] h.t.p.a.Main [Main.java:925] Uspješno kreiran organizator: Lamin Yamal
+2026-01-07 18:38:36,485 INFO [main] h.t.p.a.Main [Main.java:925] Uspješno kreiran organizator: Cristiano Ronaldo

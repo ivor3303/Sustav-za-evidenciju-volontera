@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="hr.tvz.projekt.controller.AddEventController"
+      spacing="12">
+
+    <padding>
+        <Insets top="16" right="16" bottom="16" left="16"/>
+    </padding>
+    <Label text="Dodavanje događaja" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+    <GridPane hgap="10" vgap="10">
+        <columnConstraints>
+            <ColumnConstraints minWidth="110" halignment="RIGHT"/>
+            <ColumnConstraints hgrow="ALWAYS"/>
+        </columnConstraints>
+
+        <Label text="Naziv:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="titleField" promptText="npr. Humanitarna akcija" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Grad:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="cityField" promptText="npr. Zagreb" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Adresa:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="addressField" promptText="npr. Ilica 10" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+        <Label text="Tip:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <ComboBox fx:id="typeCombo" prefWidth="220" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Spremi" defaultButton="true" onAction="#save"/>
+        <Button text="Odustani" cancelButton="true" onAction="#cancel"/>
+    </HBox>
+
+    <Label fx:id="statusLabel" text="" wrapText="true" />
+</VBox>

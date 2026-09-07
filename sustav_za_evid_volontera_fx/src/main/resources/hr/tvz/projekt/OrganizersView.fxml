@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.tvz.projekt.controller.OrganizersController">
+
+    <top>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="16" right="16" bottom="10" left="16"/>
+            </padding>
+
+            <Label text="Organizatori"
+                   style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Pretraži po:"/>
+                <ComboBox fx:id="fieldCombo" prefWidth="180"/>
+
+                <Label text="Vrijednost:"/>
+                <TextField fx:id="valueField" promptText="upiši pojam..." prefWidth="280"/>
+
+                <Button text="Traži" defaultButton="true" onAction="#onSearch"/>
+                <Button text="Reset" cancelButton="true" onAction="#onReset"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox>
+            <padding>
+                <Insets top="0" right="16" bottom="16" left="16"/>
+            </padding>
+
+            <TableView fx:id="table" prefHeight="600">
+                <columns>
+                    <TableColumn fx:id="colName" text="Ime i prezime" prefWidth="220"/>
+                    <TableColumn fx:id="colCity" text="Grad" prefWidth="160"/>
+                    <TableColumn fx:id="colEmail" text="Email" prefWidth="260"/>
+                    <TableColumn fx:id="colAge" text="Dob" prefWidth="80"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+
+</BorderPane>
